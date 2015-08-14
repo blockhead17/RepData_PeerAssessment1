@@ -5,7 +5,6 @@ output:
     keep_md: true
 ---
 
-<<<<<<< HEAD
 ##Loading and preprocessing the data
 Prior to loading the data, set the working directory and load the libraries that will be needed for the assignment.
 
@@ -174,24 +173,3 @@ xyplot(meanIntervalSteps ~ interval | Weekday,
       main = "Time Series Plot: Mean Number of Steps by Time Interval",
       scales=list(x=list(at=intList, labels=intLabels)))
 ```
-
-=======
-
-## Loading and preprocessing the data
-
-
-
-## What is mean total number of steps taken per day?
-
-
-
-## What is the average daily activity pattern?
-
-
-
-## Imputing missing values
-
-
-
-## Are there differences in activity patterns between weekdays and weekends?
->>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
